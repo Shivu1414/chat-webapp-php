@@ -1,0 +1,209 @@
+.v-nav-div{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.v-logo{
+    font-size: 35px !important;
+    font-family: sans-serif;
+}
+.v-nav-item{
+    font-size: 20px !important;
+    margin: auto 20px;
+}
+.chat-btn{
+    color: white !important;
+    font-family: sans-serif !important;
+    font-weight: bold !important;
+}
+.chat-btn:hover{
+    background-color: darkgray !important;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px !important;
+}
+.t-bold{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: larger;
+}
+.t-color{
+    color:#4c4c4c !important;
+    background-color: transparent !important;
+}
+.chat-box{
+    height: 350px;
+    width: 450px;
+    border-radius: 25px;
+    background-image: url("../img/whatsapp-theme.jpg");
+    position:absolute !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    right: 15px;
+    bottom: 10px;
+    z-index: 10;
+    display: none;
+}
+.chat-header{
+    width: 100%;
+    height: 50px;
+    background-color: #48b348eb;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-top: 10px;
+}
+.user-name{
+    color: white;
+    font-size: larger;
+    font-family: sans-serif;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.chat-inp{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.chat-footer{
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+    /* left: 10px; */
+}
+.inp-box{
+    width:85%;
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.send-i{
+    background-color: transparent !important;
+    color:white;
+}
+.send-btn{
+    border:none;
+    border-radius: 50%;
+    padding:8px;
+    background-color: chartreuse;
+    transition: transform 0.4s;
+}
+.send-btn:hover{
+    transform: scale(1.1);
+}
+.f-send{
+    margin: 0;
+    padding: 0;
+}
+.cancel-btn{
+    color: white;
+    position: absolute;
+    right: 10px;
+    top:-38px;
+    padding:5px;
+    background-color: #4c4c4cd9;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.4s;
+}
+.cancel-btn:hover{
+    transform: scale(1.1);
+}
+.not-vis{
+    visibility: hidden;
+}
+.chat-body{
+    height: 250px;
+    overflow-y: scroll;
+}
+.s-common{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 3px 8px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 3px;
+    position: relative;
+}
+.send-me{
+    background-color: #81b34f;
+    margin-left:40%;
+    margin-right: 5px;
+    float: right;
+    text-align: left;
+    padding-right: 45px;
+}
+.send-user{
+    background-color: #4c4c4c;
+    margin-right:30%;
+    margin-left: 5px;
+    text-align: right;
+    padding-left: 45px;
+}
+.send-user::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #4c4c4c transparent transparent;
+}
+.send-me::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent #81b34f;
+}
+.chat-body::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+.time-chat{
+    font-size: 10px;
+    margin-left: 5px;
+    color: #ffffff;
+    position: absolute;
+    right: 8px;
+    bottom: -1px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+.time-chat-user{
+    font-size: 10px;
+    margin-right: 5px;
+    color: #ffffff;
+    position: absolute;
+    left: 8px;
+    bottom: -1px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+.user-id{
+    padding:3px 10px;
+    border-radius: 50%;
+    color:#48b348eb;
+    background-color: white;
+    display: inline-block;
+    margin-left: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.date-div{
+    text-align: center;
+    border-radius: 5px;
+    margin: 15px 20px;
+    width: 90%;
+    background-color: #f9f9f970;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    float: left;
+}
